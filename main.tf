@@ -94,7 +94,7 @@ data "aws_ami" "here" {
 }
 resource "aws_key_pair" "mykey" {
   key_name   = "mykey"
-  public_key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILRIi8wPRMppk0ChISelRlV138VWhsRhxHb5YqabllW0 shamsuddin@LAPTOP-FE6SCP8J"
+  public_key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILRIi8wPRMppk0ChISelRlV138VWhsRhxHb5YqabllW0 shamsuddin@LAPTOP-"
 }
 
 
